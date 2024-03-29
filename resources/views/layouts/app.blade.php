@@ -20,15 +20,10 @@
 
 <body class="font-sans antialiased bg-white">
     <div class="min-h-screen max-h-screen overflow-hidden overflow-y-auto">
-        <!-- Page Heading -->
-        @if (isset($header))
-        <div class="sticky top-0">
-            {{ $header }}
-        </div>
-        @endif
+        <x-header />
 
         <!-- Page Content -->
-        <main class="flex-1">
+        <main class="flex-1 py-6">
             {{ $slot }}
         </main>
     </div>

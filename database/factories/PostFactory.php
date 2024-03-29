@@ -33,7 +33,6 @@ class PostFactory extends Factory
                     ],
                 ],
             ]),
-            'body' => LaravelEditorJs::render($blocks),
         ];
     }
 }

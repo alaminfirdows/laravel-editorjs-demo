@@ -10,19 +10,11 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'blocks', 'body'];
+    protected $fillable = ['title', 'blocks'];
 
-    public static function boot()
+    public function getBodyAttribute()
     {
-        parent::boot();
-
-        static::creating(function (self $post) {
-            $post->body = LaravelEditorJs::render($post->blocks);
-        });
-
-        static::updating(function (self $post) {
-            $post->body = LaravelEditorJs::render($post->blocks);
-        });
+        return LaravelEditorJs::render($this->blocks);
     }
 
     public function getExcerptAttribute()

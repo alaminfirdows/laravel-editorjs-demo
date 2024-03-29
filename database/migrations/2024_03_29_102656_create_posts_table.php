@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('title', 255);
             $table->text('blocks')->nullable();
-            $table->text('body')->nullable();
             $table->timestamps();
         });
     }

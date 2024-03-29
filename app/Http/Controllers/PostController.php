@@ -81,7 +81,7 @@ class PostController extends Controller
             'blocks'    => $request->blocks,
         ]);
 
-        return redirect()->route('posts.index')
+        return redirect()->route('posts.show', $post->id)
             ->with('message', 'Post updated successfully.');
     }
 

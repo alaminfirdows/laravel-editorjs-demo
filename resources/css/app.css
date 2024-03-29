@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hljs {
+    @apply !bg-gray-50;
+}
+
+.codex-editor {
+    @apply py-6;
+}

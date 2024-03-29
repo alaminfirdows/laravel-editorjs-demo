@@ -14,6 +14,7 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "@editorjs/editorjs": "^2.29.1"
+        "@editorjs/editorjs": "^2.29.1",
+        "highlight.js": "^11.9.0"
     }
 }
