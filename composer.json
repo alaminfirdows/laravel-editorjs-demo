@@ -2,13 +2,16 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
-        "livewire/livewire": "^3.4"
+        "alaminfirdows/laravel-editorjs": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -63,5 +66,14 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/www/packages/laravel-editorjs",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
 }
