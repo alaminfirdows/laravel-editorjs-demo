@@ -9,9 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "alaminfirdows/laravel-editorjs": "^2.2",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9",
-        "alaminfirdows/laravel-editorjs": "dev-master"
+        "laravel/tinker": "^2.9"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -66,14 +66,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/www/packages/laravel-editorjs",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    "prefer-stable": true
 }
