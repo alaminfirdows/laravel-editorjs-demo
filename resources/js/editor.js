@@ -8,6 +8,7 @@ import SimpleImage from "@editorjs/simple-image";
 import Checklist from "@editorjs/checklist";
 import Embed from "@editorjs/embed";
 import Warning from "@editorjs/warning";
+import InlineCode from "@editorjs/inline-code";
 
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -57,6 +58,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
             // warning
             warning: Warning,
+
+            // inline code
+            inlineCode: {
+                class: InlineCode,
+                shortcut: "CMD+SHIFT+M",
+            },
         },
 
         onChange: function () {
