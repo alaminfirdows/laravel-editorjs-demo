@@ -9,6 +9,7 @@ import Checklist from "@editorjs/checklist";
 import Embed from "@editorjs/embed";
 import Warning from "@editorjs/warning";
 import InlineCode from "@editorjs/inline-code";
+import Marker from "@editorjs/marker";
 
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -63,6 +64,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
             inlineCode: {
                 class: InlineCode,
                 shortcut: "CMD+SHIFT+M",
+            },
+
+            // marker
+            Marker: {
+                class: Marker,
+                shortcut: "CMD+SHIFT+H",
             },
         },
 
