@@ -7,6 +7,8 @@ import RawTool from "@editorjs/raw";
 import SimpleImage from "@editorjs/simple-image";
 import Checklist from "@editorjs/checklist";
 import Embed from "@editorjs/embed";
+import Warning from "@editorjs/warning";
+
 
 window.addEventListener("DOMContentLoaded", (event) => {
     const data = JSON.parse(document.getElementById("blocks").value || "{}");
@@ -52,6 +54,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
             // embed
             embed: Embed,
+
+            // warning
+            warning: Warning,
         },
 
         onChange: function () {
