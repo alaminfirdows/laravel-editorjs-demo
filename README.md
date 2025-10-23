@@ -10,13 +10,6 @@ or intall the package via composer
 composer require alaminfirdows/laravel-editorjs
 ```
 
-## Features
-
-- 🎨 **Tailwind CSS v4.0** - Latest high-performance CSS framework with 5x faster builds
-- ⚡ **Vite** - Lightning-fast build tooling
-- ✍️ **EditorJS** - Modern block-style WYSIWYG editor
-- 🚀 **Laravel 11** - Latest PHP framework for web artisans
-
 ## Installation
 
 Step 1: Clone the repository
