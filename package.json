@@ -6,11 +6,9 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.19",
+        "@tailwindcss/vite": "^4.1.15",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
-        "postcss": "^8.4.38",
-        "tailwindcss": "^3.4.3",
         "vite": "^5.0"
     },
     "dependencies": {
@@ -21,10 +19,12 @@
         "@editorjs/inline-code": "^1.5.2",
         "@editorjs/link": "^2.6.2",
         "@editorjs/list": "^1.10.0",
+        "@editorjs/marker": "^1.4.0",
         "@editorjs/quote": "^2.7.2",
         "@editorjs/raw": "^2.5.0",
         "@editorjs/simple-image": "^1.6.0",
         "@editorjs/warning": "^1.4.1",
-        "highlight.js": "^11.9.0"
+        "highlight.js": "^11.9.0",
+        "tailwindcss": "^4.1.15"
     }
 }

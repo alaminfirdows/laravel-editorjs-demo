@@ -4,7 +4,7 @@
 
     <div class="space-y-6">
         <div>
-            <input type="text" class="w-full border px-4 py-3 outline-gray-600 focus:outline-none" name="title"
+            <input type="text" class="w-full border border-gray-200 px-4 py-3 outline-gray-600 focus:outline-none" name="title"
                 value="{{ old('title', $post->title ?? '') }}" placeholder="Title">
 
             @error('title')

@@ -9,11 +9,11 @@
         </div>
 
         <div class="space-y-6">
-            <div class="bg-white shadow-sm border p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 {!! $post->body !!}
             </div>
 
-            <div class="bg-gray-50 p-6 border font-mono">
+            <div class="bg-gray-50 p-6 border border-gray-200 font-mono">
                 <pre id="json">{{ $post->blocks }}</pre>
             </div>
         </div>
