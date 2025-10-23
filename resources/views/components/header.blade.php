@@ -1,4 +1,4 @@
-<div class="sticky top-0 border-b h-16 bg-white shadow-xs w-full">
+<div class="sticky top-0 border-b border-gray-200 h-16 bg-white shadow-xs w-full">
     <div class="max-w-4xl mx-auto flex items-center justify-between h-full px-6 lg:px-0">
         <h2 class="font-semibold text-xl">Laravel EditorJs Demo</h2>
 
