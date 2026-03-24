@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "alaminfirdows/laravel-editorjs": "2.x",
+        "alaminfirdows/laravel-editorjs": "2.x-dev",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0"
     },
@@ -88,5 +88,14 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/laravel-editorjs",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
 }
